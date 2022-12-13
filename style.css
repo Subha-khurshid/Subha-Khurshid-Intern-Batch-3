@@ -1,0 +1,290 @@
+body{
+  overflow-x: hidden;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetice Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  background-color: rgb(244, 239, 235);
+}
+.navbar{
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: .9rem;
+}
+.navbar a {
+  padding: 0cm;
+}
+.navbar-nav li{
+  padding: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem; 
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: gray;
+}
+.bgimg{
+  background-image: url(images/hero-img1.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: right;
+  width: 100%;
+  height: 660px;
+}
+.intro{
+  font-size: 35px;
+  font-weight: 450;
+  margin-top: 15px;
+}
+.work{
+  font-size: 16px;
+  font-weight: 200;
+  color: gray;
+  margin-top: 15px;
+}
+.details{
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.btn{
+  background-color: rgb(247, 166, 46);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -20px;
+  border-radius: 30px;
+  size: 50Px;
+}
+@media screen and (max-width: 600px) {
+
+  h1.intro {
+  
+  font-size: 23px;
+  margin-left: -50px;
+  }
+  h2.work {
+  
+    font-size: 20px;
+    margin-left: -50px;
+    }
+  p.details {
+    margin-left: -50px;
+    font-size: 13px;
+      
+  }
+  button.btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: -20px;
+  size: 35Px;
+  margin-left: -37px;  
+  }}
+  @media screen and (max-width: 650px) {
+
+    h1.intro {
+    
+    font-size: 25px;
+    margin-left: -30px;
+    }
+    h2.work {
+    
+      font-size: 18px;
+      margin-left: -30px;
+      
+      }
+    p.details {
+    
+      font-size: 15px;
+      margin-left: -30px;
+        
+    }
+    button.btn{
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: -20px;
+      size: 35Px;
+      margin-left: -37px;  
+      }
+    
+    }
+.ourservices{
+  padding: 0cm;
+  margin-top: 80px;
+}
+.ourservices h1{
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.service .card{
+  flex-direction: row;
+  padding-left: 10px;
+  width: 100%;
+}
+.fa-glass{
+  margin-top:16px;
+  width: 48px;
+}
+.fa-video-camera{
+  margin-top:16px;
+  width: 48px;
+}
+.fa-fire{
+  margin-top:16px;
+  width: 48px;
+}
+.fa-magnet{
+  margin-top:16px;
+  width: 48px;
+}
+.card .imgsetting{
+  width: 120px;
+  border-radius: 50%;
+height: 50px;
+text-align: center;
+background-color: rgb(247, 166, 46);
+}
+.aboutme h1{
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.aboutme{
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+}
+.aboutme h1{
+padding: 30px;
+}
+.img-fluid{
+  height: 100%;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.client{
+  background-color: rgb(247, 166, 46);
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.clientsayings{
+  font-weight: 120;
+  font-size: 34px;
+  padding-bottom: -50px;
+}
+.clientques{
+  font-weight: 120;
+  font-size: 20px;
+  padding-bottom: -50px;
+}
+.fa-quote-right{
+  margin-top: 13%;
+}
+.bp{
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.rm{
+  color: rgb(247, 166, 46);
+}
+.description h1{
+  font-size: 25px;
+  margin-left: -1px;
+}
+.des1 h1{
+  font-size: 25px;
+  margin-left: -1px;
+}
+.des2 h1{
+  font-size: 25px;
+  margin-left: -1px;
+}
+.des3 h1{
+  font-size: 25px;
+  margin-left: -1px;
+}
+.blog .card{
+  flex-direction: column;
+}
+.mt-5{
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.sayhello{
+  background-color: rgb(247, 166, 46);
+  color: white;
+  font-size: 16px;
+  font-weight: 400px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.form-control{
+  background: transparent;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid white;
+}
+.sayhello .btn{
+  background-color: #333;
+  color: white;
+  margin-left: 30px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li i {
+  color: rgb(139, 137, 137);
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+}
+.footer h4{
+  font-size: 17px;
+  color: rgb(78, 78, 78);
+}
+.footer p{
+  font-size: 15px;
+  color: rgb(139, 137, 137);
+}
+p1:hover{
+  color: rgb(82, 80, 80);
+  cursor: pointer;
+}
+p2:hover{
+  color: rgb(82, 80, 80);
+  cursor: pointer;
+}
+p3:hover{
+  color: rgb(82, 80, 80);
+  cursor: pointer;
+}
